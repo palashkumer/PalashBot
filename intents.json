@@ -1,0 +1,407 @@
+{
+  "intents": [
+	 {"tag": "greeting",
+         "patterns": ["Hi there","hi","Hi","hello","Hello","Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking, how can I help?", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "bye","See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","thanks", "Thank you","thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["You are most welcome", "Happy to help!", "My pleasure","Any time!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        
+         {"tag": "bandarban1",
+          "patterns": ["How much time need to travel from Dhaka to Bandarban by bus?","Dhaka to Bandarban","Dhaka to Bandarban by bus?","How much time need to travel from Dhaka to Bandarban?"],
+          "responses": ["Around 7-8 hours depending on traffic and road conditions."],
+          "context": [""]
+         },
+        
+        {"tag": "bandarban2",
+         "patterns": ["Which time is suitable for the journey in Bandarban?","Which time is suitable in Bandarban?","Which time is best in Bandarban?"," suitable in Bandarban?"],
+         "responses": [
+          "Both day and night time can be suitable for visiting Bandarban, depending on your interests and the activities you plan to do. During the day, you can enjoy trekking and hiking in the mountains, visit waterfalls,explore the local culture and natural beauty, and enjoy the scenic views of the landscape.At night, you can experience the local nightlife and cultural activities"
+                  ],
+         "context": [""]
+        },
+         
+         {"tag": "bandarban3",
+          "patterns": ["Which season is suitable in Bandarban?","Which season is best in Bandarban?","suitable season in Bandarban?","best season in Bandarban?"],
+          "responses": ["The best time to visit Bandarban is during the winter months, from October to March"],
+          "context": [""]
+         },
+          {"tag": "bandarban4",
+           "patterns": ["Which is the comfortable as well as risk free transport to travel from Dhaka to Bandarban and vice versa?","comfortable as well as risk free transport to travel from Dhaka to Bandarban?"],
+           "responses": ["There are several comfortable and relatively risk-free options for traveling from Dhaka to Bandarban and vice versa: Private car,bus & train "],
+           "context": [""]
+          },
+        {"tag": "bandarban5",
+         "patterns": ["What are the most popular tourist spots in Bandarban?","most popular tourist spots in Bandarban?","popular tourist spots in Bandarban?"],
+         "responses": ["Bandarban is a popular tourist destination in Bangladesh and offers a variety of natural and cultural attractions.Some of the most popular tourist spots in Bandarban are: Nilgiri, Chimbuk Hill, Boga Lake, Prantik Lake, Keokradong, Nafa-khum,Nilachal"],
+         "context": [""]
+        },
+        {"tag": "bandarban6",
+         "patterns": ["Which spots are similar according to spot type in Bandarban?","Which spots are similar in Bandarban?","similar spots in Bandarban?"],
+         "responses": ["Nilgiri and Chimbuk Hill ,Boga Lake and Prantik Lake,  Nafakum, Shoilo Propat, and Amiyakhum waterfalls."],
+         "context": [""]
+        },
+        {"tag": "bandarban7",
+         "patterns": ["What are the famous restaurants for food in Bandarban town?","famous restaurants for food in Bandarban town?","famous restaurants in Bandarban town?"],
+         "responses": ["There are several restaurants in Bandarban town that offer a range of local and international cuisines.Here are some of the famous restaurants for food in Bandarban town: Purbani Restaurant,Rupashi Bangla,Nafakum Restaurant,Green Prairie Restaurant,Kalapata Restaurant"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "bandarban8",
+         "patterns": ["8)Which are the most suitable hotel/resort at Bandarban town?","most suitable hotel/resort at Bandarban town?","suitable hotel/resort at Bandarban town?","hotel/resort at Bandarban town?"],
+         "responses": ["Hotel Green Hill,Hotel Four Star,Hotel Hill View: Hotel Hill View,Parjatan Hotel Bandarban,Hillside Resort"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "bandarban9",
+         "patterns": ["What are the traditional food in Bandarban?","traditional food in Bandarban?"],
+         "responses": ["Bamboo Shoot Curry,Machinga Shutki,Khaiyachara,Lakshu"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "bandarban10",
+         "patterns": ["What type of indigenous people live in Bandarban?","indigenous people in Bandarban?"],
+         "responses": ["Marma, Bawm, Chakma, Tripura, Khumi"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "bandarban11",
+         "patterns": ["What are the traditional dress or clothes of indigenous people in Bandarban?","traditional dress or clothes of indigenous people in Bandarban?","traditional dress or clothes in Bandarban?"],
+         "responses": ["thami,pinon,rongphali"],
+         "context": [""]
+        },
+        
+         {"tag": "bandarban12",
+          "patterns": ["Which are the most suitable and cost effective shop for traditional dress in Bandarban?","most suitable and cost effective shop for traditional dress in Bandarban?","cost effective shop for traditional dress in Bandarban?"],
+          "responses": ["Dress park; Hill View Burmis market; Nilachal Burmiz Market"],
+          "context": [""]
+         },
+         
+          {"tag": "bandarban13",
+           "patterns": ["How much cost or Bangladeshi taka need per day in Bandarban?(Including all cost. Like hotel fare/ resort fare, each day spot selection, transport cost, food cost which depends on restaurant category).","cost or Bangladeshi taka need per day in Bandarban?","cost per day in Bandarban?"],
+           "responses": ["4000 - 5000 Taka"],
+           "context": [""]
+          },
+        
+        
+        
+         {"tag": "Khagrachari1",
+          "patterns": ["How much time need to travel from Dhaka to Khagrachari by bus?","Dhaka to Khagrachari by bus?","travel from Dhaka to Khagrachari","Dhaka to Khagrachari"],
+          "responses": ["Around 6-7 hours depending on traffic and road conditions."],
+          "context": [""]
+         },
+        
+        {"tag": "Khagrachari2",
+         "patterns": ["Which time is suitable for the journey in Khagrachari?","Which time is suitable in Khagrachari?","suitable time for journey in Khagrachari?"],
+         "responses": ["t's generally recommended to travel to Khagrachari during the day rather than at night, especially if you are travelling by road. Here are some reasons why: Safety,Scenic beauty,Availability of transportation & comfort"],
+         "context": [""]
+        },
+         
+         {"tag": "Khagrachari3",
+          "patterns": ["Which season is suitable in Khagrachari?","season is suitable in Khagrachari?","suitable season in Khagrachari?"],
+          "responses": ["If you want to enjoy the natural beauty of Khagrachari and go on treks, hikes, or explore the waterfalls, the winter season from November to February is the best time to visit."],
+          "context": [""]
+         },
+          {"tag": "Khagrachari4",
+           "patterns": ["Which is the comfortable as well as risk free transport to travel from Dhaka to Khagrachari and vice versa?","Which is the comfortable as well as risk free transport?","comfortable as well as risk free transport to travel from Dhaka to Khagrachari?"],
+           "responses": ["There are several comfortable and relatively risk-free options for traveling from Dhaka to Khagrachari and vice versa. Private car,bus"],
+           "context": [""]
+          },
+        {"tag": "Khagrachari5",
+         "patterns": ["What are the most popular tourist spots in  Khagrachari?","most popular tourist spots in Khagrachari?","popular tourist spots in Khagrachari?"],
+         "responses": ["Alutila,Risang Jhorna,Aronno Kuthir,Newzeland Para"],
+         "context": [""]
+        },
+        {"tag": "Khagrachari6",
+         "patterns": ["Which spots are similar according to spot type in Khagrachari?","Which spots are similar in Khagrachari?","similar spotsin Khagrachari?"],
+         "responses": ["Risang jhornaa & Taiduchara Jhorna"],
+         "context": [""]
+        },
+        {"tag": "Khagrachari7",
+         "patterns": ["What are the famous restaurants for food at Khagrachari town?","famous restaurants for food at Khagrachari town?","famous restaurants in Khagrachari town?"],
+         "responses": ["Magnet Cafe,Bamboo Shoot Eco Food Court,System Restaurant"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "Khagrachari8",
+         "patterns": ["8)Which are the most suitable hotel/resort at Khagrachari town?","most suitable hotel/resort at Khagrachari town?","suitable hotel/resort at Khagrachari town?","hotel/resort at Khagrachari town?"],
+         "responses": ["Khagrachhari Parjatan Motel,Monu Adom Resort,Borno Resot"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "Khagrachari9",
+         "patterns": ["What are the traditional food in Khagrachari?","traditional food in Khagrachari?"],
+         "responses": ["Bamboo chicken,Mundy,Huro Hurbo,Lakshu"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "Khagrachari10",
+         "patterns": ["What type of indigenous people live in Khagrachari?","indigenous people in Khagrachari?"],
+         "responses": ["Chakma,Marma,Bom,Tripura"],
+         "context": [""]
+        },
+        
+        
+        {"tag": "Khagrachari11",
+         "patterns": ["What are the traditional dress or clothes of indigenous people in Khagrachari?","traditional dress or clothes of indigenous people in Khagrachari?"],
+         "responses": ["Feizong(Dhuti);Pujat (Panjabi);Koiraat (Pagri);Pinon-hadi;Poloi;Enafi"],
+         "context": [""]
+        },
+        
+         {"tag": "Khagrachari12",
+          "patterns": ["Which are the most suitable and cost effective shop for traditional dress in Khagrachari?","most suitable and cost effective shop for traditional dress in Khagrachari?","shop for traditional dress in Khagrachari?"],
+          "responses": ["Boyon Hendi Crafts (Haque Market);Tripura Butic House (Khagrapur)"],
+          "context": [""]
+         },
+         
+          {"tag": "Khagrachari13",
+           "patterns": ["How much cost or Bangladeshi taka need per day in Khagrachari?(Including all cost. Like hotel fare/ resort fare, each day spot selection, transport cost, food cost which depends on restaurant category).","cost or Bangladeshi taka need per day in Khagrachari?"],
+           "responses": ["4000 - 5000 Taka"],
+           "context": [""]
+          },
+        
+        
+        
+          {"tag": "Rangamati1",
+           "patterns": ["How much time need to travel from Dhaka to Rangamati by bus?","Dhaka to Rangamati"," Dhaka to Rangamati by bus?","travel from Dhaka to Rangamati"],
+           "responses": ["The distance between Dhaka and Rangamati is approximately 325 kilometers. On average, it takes around 7-8 hours to travel from Dhaka to Rangamati by bus."],
+           "context": [""]
+          },
+         
+         {"tag": "Rangamati2",
+          "patterns": ["Which time is suitable for the journey in Rangamati?","Which time is suitable in Rangamati?","suitable time for journey in Rangamati?"],
+          "responses": ["The best time to visit Rangamati for a journey or tour is during the day. Rangamati is a beautiful district in Bangladesh with scenic hills, forests, and waterfalls, and you can enjoy the natural beauty of the region best during daylight hours."],
+          "context": [""]
+         },
+          
+          {"tag": "Rangamati3",
+           "patterns": ["Which season is suitable in Rangamati?","Which season is suitable?","suitable season in Rangamati?"],
+           "responses": [" The winter season is considered the most suitable season to visit Rangamati for a comfortable and enjoyable experience."],
+           "context": [""]
+          },
+           {"tag": "Rangamati4",
+            "patterns": ["Which is the comfortable as well as risk free transport to travel from Dhaka to Rangamati and vice versa?","Which is the comfortable as well as risk free transport?","comfortable as well as risk free transport to travel from Dhaka to Rangamati?"],
+            "responses": ["There are several comfortable and safe transportation options available for traveling from Dhaka to Rangamati and vice versa such as private car,bus & train"],
+            "context": [""]
+           },
+         {"tag": "Rangamati5",
+          "patterns": ["What are the most popular tourist spots in  Rangamati?","most popular tourist spots in Rangamati?","popular tourist spots in  Rangamati?"],
+          "responses": ["Sajek valley; Kaptai Lake; Shuvolong Waterfalls; Lake View Island; Pedatingting; Konglak Tipra Hill"],
+          "context": [""]
+         },
+         {"tag": "Rangamati6",
+          "patterns": ["Which spots are similar in Rangamati according to spot type?","Which spots are similar in Rangamati?","similar spots in Rangamati?"],
+          "responses": ["Lake View Island & Kaptai Lake"],
+          "context": [""]
+         },
+         {"tag": "Rangamati7",
+          "patterns": ["What are the famous restaurants for food at Rangamati town?","famous restaurants for food at Rangamati town?","famous restaurants in Rangamati town?"],
+          "responses": ["Peda Ting Ting Restaurant, Chang Pang Restaurant,Tugun Restaurant, Berannye Lake Shore Cafe, Bargee, Masterchef, soliquid,Tumbaj, Bamboo shoot, Ranga."],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Rangamati8",
+          "patterns": ["Which are the most suitable hotel/resort at Rangamati town?","most suitable hotel/resort at Rangamati town?","suitable hotel/resort at Rangamati town?","hotel/resort at Rangamati town?"],
+          "responses": ["Aronnok & Lakeshore Holiday Resort, Parjatan Holiday Complex, Megh Kabbo Hilltop Cottage"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Rangamati9",
+          "patterns": ["What are the traditional food in Rangamati?","traditional food in Rangamati?","traditional food?"],
+          "responses": ["Bamboo chicken, Kolar mocha vorta, Chapila fish fry, Bamboo beef"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Rangamati10",
+          "patterns": ["What type of indigenous people live in Rangamati? ","indigenous people in Rangamati?","indigenous people"],
+          "responses": ["Chakma, Marma,Tripura,Tanchangya,Khumi,Kheyang"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Rangamati11",
+          "patterns": ["What are the traditional dress or clothes of indigenous people in Rangamati?","traditional dress or clothes of indigenous people in Rangamati?"],
+          "responses": ["Pujat(Panjabi); Koiraat(Pagri); Pinon-hadi"],
+          "context": [""]
+         },
+         
+          {"tag": "Rangamati12",
+           "patterns": ["Which are the most suitable and cost effective shop for traditional dress in Rangamati?","most suitable and cost effective shop for traditional dress in Rangamati?"],
+           "responses": ["Quality Fashion house Rangamati; Marma Store (Tabalchori Tourist Road); Mizel Hozal"],
+           "context": [""]
+          },
+          
+           {"tag": "Rangamati13",
+            "patterns": ["How much cost or Bangladeshi taka need per day in Rangamati?(Including all cost. Like hotel fare/ resort fare, each day spot selection, transport cost, food cost which depends on restaurant category).","cost or Bangladeshi taka need per day in Rangamati?"],
+            "responses": ["4000 - 5000 Taka"],
+            "context": [""]
+           },
+         
+         
+         
+          {"tag": "Sylhet1",
+           "patterns": ["How much time need to travel from Dhaka to Sylhet by bus?","Dhaka to Sylhet","Dhaka to Sylhet by bus?","travel from Dhaka to Sylhet"],
+           "responses": ["The distance between Dhaka and Sylhet is approximately 245 kilometers (152 miles), and it usually takes around 4-6 hours to travel by bus."],
+           "context": [""]
+          },
+         
+         {"tag": "Sylhet2",
+          "patterns": ["Which time is suitable for the journey?","Which time is suitable?","suitable time for journey?"],
+          "responses": ["The best time to explore Sylhet is during the day. Sylhet is a beautiful region in Bangladesh with natural attractions, such as tea gardens, waterfalls, and forests. You can fully appreciate the beauty of these places during daylight hours."]  ,
+          "context": [""]
+         },
+          
+          {"tag": "Sylhet3",
+           "patterns": ["Which season is suitable for travel in Sylhet?","Which season is suitable?","suitable season?"],
+           "responses": ["The winter season is considered the most suitable time for travel in Sylhet. The cool and dry weather makes it perfect for sightseeing and exploring the natural beauty of the region, including the tea gardens, waterfalls, and national parks. The clear skies during winter also offer a beautiful view of the hills, tea plantations, and forests."],
+           "context": [""]
+          },
+           {"tag": "Sylhet4",
+            "patterns": ["Which is the comfortable as well as risk free transport to travel from Dhaka to Sylhet and vice versa?","Which is the comfortable as well as risk free transport?","comfortable as well as risk free transport to travel from Dhaka to Sylhet?"],
+            "responses": ["There are several comfortable and relatively risk-free options for traveling from Dhaka to Sylhet and vice versa, such as private car,bus"],
+            "context": [""]
+           },
+         {"tag": "Sylhet5",
+          "patterns": ["What are the most popular tourist spots in Sylhet?","most popular tourist spots in Sylhet?","popular tourist spots in Sylhet?"],
+          "responses": ["Jaflong; Ratargul Swamp Forest; Shahjalal Dorgha; Hum Hum Water Falls; Bisnakandi"],
+          "context": [""]
+         },
+         {"tag": "Sylhet6",
+          "patterns": ["Which spots are similar according to spot type in Sylhet?","Which spots are similar in Sylhet?","similar spots in Sylhet?"],
+          "responses": ["Jaflong & Ratargul Swamp Forest"],
+          "context": [""]
+         },
+         {"tag": "Sylhet7",
+          "patterns": ["What are the famous restaurants for food at Sylhet town?","famous restaurants for food at Sylhet town?"],
+          "responses":["Platinum Lounge; Woondaal King Kebab; The Mad Grill; Pach Bhai Restaurant; Eatopia"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Sylhet8",
+          "patterns": ["8)Which are the most suitable hotel/resort at Sylhet town?","most suitable hotel/resort at Sylhet town?","suitable hotel/resort at Sylhet town?","hotel/resort at Sylhet town?"],
+          "responses": ["Grand Palace Sylhet; Grand Sylhet Hotel & Resort; Hotel Valley Garden"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Sylhet9",
+          "patterns": ["What are the traditional food in Sylhet?","traditional food in Sylhet?"],
+          "responses": ["Hatkora; Kaliya; Korma; Kofta; Jorda; Aakhni"],
+          "context": [""]
+         },
+         
+         {"tag": "Sylhet10",
+          "patterns": ["What type of indigenous people live in Sylhet? ","indigenous people in Sylhet?"],
+          "responses": ["Khasia; Garo; Munda; Tripura; Bishnupriya Manipuri; Maiti Manipuri; Santal"],
+          "context": [""]
+         },
+         
+         
+         {"tag": "Sylhet11",
+          "patterns": ["What are the traditional dress or clothes of indigenous people in Sylhet?","traditional dress or clothes of indigenous people in Sylhet?"],
+          "responses": [
+            "Pinon-hadi; Furit; Fanek; Fidup; Enafi; Poloi; Feijong"
+          ],
+          "context": [""]
+         },
+         
+          {"tag": "Sylhet12",
+           "patterns": ["Which are the most suitable and cost effective shop for traditional dress in Sylhet?","most suitable and cost effective shop for traditional dress in Sylhet?"],
+           "responses": ["The sharee gaden (Sylhet Sadar); Pinon ( Sylhet Sadar); Dressy dale (Sylhet Sadar)"],
+           "context": [""]
+          },
+          
+           {"tag": "Sylhet13",
+            "patterns": ["How much cost or Bangladeshi taka need per day in Khagrachari?(Including all cost. Like hotel fare/ resort fare, each day spot selection, transport cost, food cost which depends on restaurant category).","cost or Bangladeshi taka need per day in Bandarban?"],
+            "responses": ["(4000 - 5000)Taka"],
+            "context": [""]
+           },
+   
+    {"tag": "noans",
+         "patterns": ["why","how","when","I","you"],
+         "responses": ["Can't Understand Your Question","please elaborate your question"],
+         "context": [""]
+        },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "haha",
+        "patterns": [
+               "haha",
+               "lol",
+               "rofl",
+               "lmao",
+              "thats funny"
+            ],
+         "responses": [
+           "Glad I could make you laugh !"
+            ]
+        },
+        {
+          "tag": "programmer",
+           "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Palash Kumer & Rashel Deb."
+            ]
+        },
+	{
+          "tag": "insult",
+           "patterns": [ 
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts"
+            ]
+        },
+         {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        }	
+  ]
+}
